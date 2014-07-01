@@ -19,6 +19,5 @@ describe 'book listing page' do
       visit '/books'
       expect(page).to have_content 'Shantaram'
     end
-  end
-  
+  end  
 end
