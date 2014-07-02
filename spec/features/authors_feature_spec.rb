@@ -9,7 +9,7 @@ describe 'authors' do
 		end
 	end
 
-  context 'are authors' do
+  context 'there are authors' do
   
     before do
       Author.create(name: 'nadav')
@@ -19,9 +19,9 @@ describe 'authors' do
       visit '/authors'
       expect(page).to have_content 'nadav'
     end
-  end  
+  end
 
-
+  
   # it 'an author can have multiple books' do
   #   Book.create(title: 'Shantaram', author: 'james kemp' 'nadav matalon')
 

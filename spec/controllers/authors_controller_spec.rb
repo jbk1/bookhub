@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe AuthorsController, :type => :controller do
+# RSpec.describe AuthorsController, :type => :controller do
 
-end
+# end
